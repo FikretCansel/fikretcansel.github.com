@@ -1,0 +1,62 @@
+html body {
+    height: 100%;
+    background-color: #f8f8f8;
+    direction: ltr;
+    font-family: 'Grape Nuts';
+}
+.ProductContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.ProductBody{
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 90%;
+    background-color: #aa3535;
+    background-color: #FFFF;
+}
+.ProductBodyHeader{
+    background-color: #b4c6e9;
+    border-radius: 15px;
+}
+.ProductListProducts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.ProductListProduct{
+    border-radius: 0.428rem;
+    margin: 10px;
+    max-width: 400px;
+    background-color: #F8F8F8;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 25px rgba(0,0,0,0.2);
+    border: 0 solid rgba(34,41,47,.125);
+    transition: 1s;
+}
+.ProductListProductBody{
+    padding: 50px;
+}
+.ProductListProductTitle{
+    font-size: 36px;
+}
+
+.ProductListProduct:hover{
+    border-radius: 0.428rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* max-width: 420px; */
+    background-color: #b4c6e9;
+    cursor: pointer;
+    transition: 1s;
+    /* font-size: 16px; */
+    
+    /* width: 450px; */
+}
+.ProductListDescription{
+    max-width: 350px;
+}
