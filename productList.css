@@ -32,13 +32,17 @@ html body {
 .ProductListProduct{
     border-radius: 0.428rem;
     margin: 10px;
-    max-width: 400px;
+    width: 350px;
     background-color: #F8F8F8;
     box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 25px rgba(0,0,0,0.2);
     border: 0 solid rgba(34,41,47,.125);
     transition: 1s;
 }
 .ProductListProductBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     padding: 50px;
 }
 .ProductListProductTitle{
@@ -49,14 +53,13 @@ html body {
     border-radius: 0.428rem;
     margin-top: 5px;
     margin-bottom: 15px;
+    width: 425px;
     /* max-width: 420px; */
     background-color: #b4c6e9;
     cursor: pointer;
     transition: 1s;
+    z-index: 10000;
     /* font-size: 16px; */
     
     /* width: 450px; */
-}
-.ProductListDescription{
-    max-width: 350px;
 }
